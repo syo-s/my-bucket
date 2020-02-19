@@ -1,14 +1,14 @@
 {
-    "version": "2.16.2-jp-3",
+    "version": "2.16.4-jp-13",
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-3-exe.zip",
-            "hash": "e9ac1e3dbbef0aff13e54f2d50551566e54a89a07e7c118129aee7e01c9973ec"
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.4-jp-13-exe.zip",
+            "hash": "8402d08c900dbd05f03abe66e1e3780c7795a3b78e892cf7188445b1ba577d28"
         },
         "32bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-3-x64-exe.zip",
-            "hash": "aa202621a20066f2592fb369f248da51135770b628f83073a2f083c277d066a3"
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.4-jp-13-x64-exe.zip",
+            "hash": "c5ccf2c8ea8adef774e2e0b21b20b997bf3144e9cfbc98b7c39e328408cdc2e8"
         }
     },
     "extract_dir": "WinMerge",
@@ -41,10 +41,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-exe.zip"
+                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$match1-jp-$match2-exe.zip"
             },
             "32bit": {
-                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-x64-exe.zip"
+                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$match1-jp-$match2-x64-exe.zip"
             }
         }
     }
