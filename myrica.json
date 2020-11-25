@@ -14,7 +14,7 @@
     "hash": "f73dca7a5999d02351534dbdc184e0e2f9f1a8294de5ff931bb535a5327c68c0",
     "checkver": {
         "url": "https://myrica.estable.jp/myricahistry/",
-        "re": "<h3>Version (?<version>[\\d.]+)</h3>"
+        "re": "<h3>.*Version (?<version>[\\d.]+).*</h3>"
     },
 
     "installer": {
